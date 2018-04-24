@@ -1,0 +1,1 @@
+# LaunchBar-Image-Compressor
