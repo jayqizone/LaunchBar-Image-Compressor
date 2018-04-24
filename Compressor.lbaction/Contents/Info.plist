@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>font-awesome:fa-compress</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.jayqizone.LaunchBar.action.Compressor</string>
+	<key>CFBundleName</key>
+	<string>Compressor</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>JayQi</string>
+		<key>LBEmail</key>
+		<string>jayqizone@gmail.com</string>
+		<key>LBTwitter</key>
+		<string>@jayqizone</string>
+		<key>LBWebsiteURL</key>
+		<string>https://github.com/jayqizone</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>string</string>
+			<key>LBRunInBackground</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.sh</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
