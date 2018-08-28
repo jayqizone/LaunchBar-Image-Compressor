@@ -13,7 +13,7 @@ for ARG in "$@"; do {
 
 	case "$type" in
 	jpg | jpeg)
-		jpegoptim "$ARG" -max=90 --stdout >"$output"
+		jpegoptim "$ARG" --max=90 --stdout >"$output"
 		;;
 	png)
 		pngquant "$ARG" --quality 70-90 --force --output "$output"
